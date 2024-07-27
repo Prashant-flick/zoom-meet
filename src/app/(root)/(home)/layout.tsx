@@ -1,6 +1,16 @@
 import NavBar from '@/components/NavBar'
 import SideBar from '@/components/SideBar'
+import { Metadata } from 'next';
 import React, { ReactNode } from 'react'
+
+export const metadata: Metadata = {
+  title: "XOOM",
+  description: "Video calling platform",
+  icons: {
+    icon: '/icons/logo.svg'
+  }
+};
+
 
 const HomeLayout = ({children} : {children: ReactNode}) => {
   return (
