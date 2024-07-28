@@ -25,7 +25,7 @@ const NavBar = () => {
       </Link>
 
       <div
-        className='flex-between'
+        className='flex-between gap-2'
       >
         <SignedIn>
           <UserButton/>
